@@ -1,10 +1,18 @@
-import React from 'react'
-import './navbar.css'
+import React from 'react';
+import './navbar.css';
+import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
+
+// naming convension - BEM -> Block Element Modifier
+
 function NavBar() {
   return (
-    <div>
-      NavBar
-    </div>
+      <div className="gpt3__navbar">
+        <div className="gpt3__navbar-links">
+            <div className="gpt3__navbar-links_logo">
+              <img src={logo} alt=" "/>
+            </div>
+        </div>
+      </div>
   )
 }
 
