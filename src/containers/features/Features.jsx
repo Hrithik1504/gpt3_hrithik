@@ -2,7 +2,7 @@ import React from 'react';
 import './features.css';
 
 
-function Feature( {title, text} ) {
+function Feature() {
   return (
     <div></div>
   )
