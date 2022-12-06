@@ -23,3 +23,6 @@ const App = () => {
 }
 
 export default App
+
+
+// run - npm run build to buld the site for hosting on internet after the bug is fixed
